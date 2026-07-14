@@ -3,6 +3,7 @@ import { Switch } from '@/components/ui/switch'
 import { Label } from '@/components/ui/label'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Button } from '@/components/ui/button'
+import { Badge } from '@/components/ui/badge'
 import { ShieldCheck, Users, Workflow, Store } from 'lucide-react'
 
 export default function Configuracoes() {
