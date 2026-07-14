@@ -20,6 +20,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from '@/components/ui/dialog'
+import { CardDescription } from '@/components/ui/card'
 import {
   Search,
   ShoppingCart,
@@ -278,9 +279,9 @@ export default function Vendas() {
             <CardHeader className="flex flex-row items-center justify-between border-b pb-4">
               <div>
                 <CardTitle>Módulo Chá de Fraldas</CardTitle>
-                <DialogDescription>
+                <CardDescription>
                   Crie páginas públicas integradas ao estoque real e notifique os pais.
-                </DialogDescription>
+                </CardDescription>
               </div>
               <Button className="bg-pink-600 hover:bg-pink-700 text-white">
                 <Gift className="w-4 h-4 mr-2" /> Novo Evento
